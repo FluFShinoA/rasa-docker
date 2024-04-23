@@ -566,72 +566,6 @@ responses:
         - Digital 2D or 3D Animation Content Producer 
         - Digital 2D or 3D Production Designer
         - Associate Business Development Specialist for Entertainment and Multimedia Industries
-    
-  
-  
-  
-  
-  
-  
-  
-
-#  utter_game_designer_versus_artist_info:
-#    - text: Game designers focus on creating game mechanics and overall gameplay, while game artists focus on creating visual elements such as characters, environments, and animations.
-#      buttons:
-#      - title: Game Designer
-#        payload: /degree_program_query {{"game_designer":"game designer"}}
-#      - title: Game Artist
-#        payload: /degree_program_query {{"game_artist":"game artist"}}
-#
-#  utter_game_programmer_info:
-#  - text: Game programmers are responsible for coding and implementing the functionalities and mechanics of video games.
-#
-#  utter_narrative_designer_info:
-#  - text: Narrative designers are responsible for crafting the story, characters, and dialogue in video games to create immersive and engaging experiences.
-#
-#  utter_associate_game_producer_info:
-#  - text: An Associate Game Producer assists in the development and management of video game projects. They collaborate with teams to ensure projects are completed on time and within budget, and may also be involved in coordinating marketing efforts and analyzing market trends.
-#  utter_how_become_associate_game_producer:
-#  - text: To become an Associate Game Producer, consider obtaining a degree in game design, computer science, or a related field. Gain experience in the gaming industry through internships or entry-level positions. Develop skills in project management, communication, and leadership. Build a portfolio showcasing your work on game projects.
-#
-#  utter_senior_game_sound_engineer_info:
-#  - text: A Senior Game Sound Engineer is responsible for creating and implementing audio elements in video games. They design sound effects, compose music, and integrate audio into gameplay to enhance the player experience. Senior Game Sound Engineers may also mentor junior engineers and collaborate with other teams on game development.
-#  utter_how_become_senior_game_sound_engineer:
-#  - text: To become a Senior Game Sound Engineer, start by gaining experience in audio production and sound design. Obtain a degree in audio engineering, music production, or a related field. Build a strong portfolio showcasing your work on game projects. Develop proficiency in audio software and tools used in game development. Network with professionals in the gaming industry to explore opportunities.
-#
-#  utter_business_dev_specialist_info:
-#  - text: A Business Development Specialist identifies new business opportunities and builds relationships with potential clients or partners. They analyze market trends, develop strategies to expand the business, and negotiate contracts. Business Development Specialists play a crucial role in driving growth and revenue for an organization.
-#  utter_how_become_business_dev_specialist:
-#  - text: To become a Business Development Specialist, consider obtaining a degree in business administration, marketing, or a related field. Gain experience in sales, marketing, or customer relations. Develop strong communication, negotiation, and networking skills. Stay updated with industry trends and cultivate a strong professional network. Look for opportunities to demonstrate your ability to identify and capitalize on business opportunities.
-#
-#
-#  utter_visual_effects_artist_info:
-#  - text: A visual effects artist is a professional who creates special effects and computer-generated imagery (CGI) for films, television shows, and video games. They use software tools to enhance visual storytelling and create realistic digital effects.
-#  utter_3d_modeler_info:
-#  - text: A 3D modeler creates three-dimensional models and assets used in various industries like gaming, animation, and architecture, using specialized software to sculpt digital objects.
-#  utter_animator_info:
-#  - text: An animator brings characters, objects, and scenes to life through movement, employing techniques such as hand-drawn animation or computer-generated imagery (CGI) to create captivating animations for various media.
-#  utter_concept_artist_info:
-#  - text: A concept artist translates ideas into visual representations, creating initial designs and artwork that serve as the foundation for characters, environments, and assets in games, films, and comics.
-#  utter_motion_graphics_designer_info:
-#  - text: A motion graphics designer creates dynamic visual content for television, film, video games, and digital media, combining graphic design and animation techniques to produce engaging motion graphics that enhance storytelling and captivate audiences.
-#  utter_multimedia_designer_info:
-#  - text: A multimedia designer is someone who combines graphic design, animation, and interactive elements to create engaging multimedia content. They work on projects such as websites, advertisements, presentations, and interactive applications.
-#  utter_video_editor_info:
-#  - text: A video editor is responsible for assembling raw footage into a coherent and visually appealing sequence. They edit videos for various purposes, including films, television shows, commercials, and online content.
-#
-#
-#
-#  utter_game_designer_info:
-#    - text: Game designers focus on the systems, rules, and gameplay in order to make sure the game is fun,playable and engaging.
-#
-#  utter_game_artist_info:
-#    - text: Game artists are responsible for creating visual elements such as characters, environments, and animations in video games.
-#
-#
-#
-#
-
 
   utter_greet:
   - text: Hey! How may I help you?
@@ -672,7 +606,6 @@ responses:
           - Email: info@neu.edu.ph
           - Contact No.: (02) 8981 4221
           - [CICS Department](https://meet.google.com/orf-owbe-gef)
-  
 
   utter_other_options:
     - text: "Are these your concerns?"
@@ -685,7 +618,6 @@ responses:
           payload: /ask_neu_address
         - title: None
           payload: /ask_human_assist
-
 
   utter_faculty_options:
     - text: "What would you like to know about CICS faculty?"
@@ -703,14 +635,10 @@ responses:
   utter_current_dean:
     - text: The current Dean of CICS Department is Dean Audrey Lyle Del Mundo Diego.
 
-
-
   utter_neu_official_sites:
   - text: 'NEU VLE: https://neuvle.neu.edu.ph/
            NEU Automate: https://automate.neu.edu.ph/
            NEU Official Page: https://neu.edu.ph'
-
-
 
   utter_virtual_office:
   - text: |
@@ -725,8 +653,6 @@ responses:
         - NEU Email: info@neu.edu.ph
         - CICS Email: computerstudies@neu.edu.ph
         - Contact No.: (02) 8981 4221
-
-
 
   utter_send_neu_address:
     - text: "The address of New Era University is #9 Central Ave, New Era, Quezon City, 1107 Metro Manila
@@ -748,16 +674,8 @@ responses:
     - text: |
         If from Tandang Sora, Drop near Mercury Drug, then go past New Era Elementary school and NEU PSB.
           
-          
-  
-  
-  
-  
-  
-
   utter_send_non_sectarian:
   - text: "New Era University is run by the Iglesia ni Cristo, but it is non-sectarian meaning any religion is welcome to enroll."
-
 
   utter_send_neu_socials:
     - text: |
@@ -768,8 +686,6 @@ responses:
           - [Twitter Account](https://twitter.com/NEU_ph_official/)
 
         Or you can Visit our official page: [NEU Official Page](https://neu.edu.ph)
-
-
 
 actions:
 - action_tuition_fee
