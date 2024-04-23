@@ -1,0 +1,156 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - good afternoon
+    - yo
+    - Ho
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - many thanks
+    - tnx
+    - ty
+    - tnxs
+
+- intent: affirm
+  examples: |
+    - I don't mind
+    - sure
+    - Yes
+    - yeah
+    - ok
+    - Y
+    - oks
+    - Yah
+- intent: deny
+  examples: |
+    - No
+    - I'd rather not
+    - Not interested
+    - nope
+    - N
+    - X
+    - not ok
+    - nah
+- intent: ask_other_options
+  examples: |
+    - I have other concerns
+    - I don't see my concern
+    - other concern
+    - other concren
+    - I need help
+    - how contact NEU
+    - need to contact NEU
+- intent: ask_faculty_options
+  examples: |
+    - faculty info
+    - cics faculty
+    - faculty
+    - facluty
+    - teachers
+    - professors
+    - who is faculty
+    - list of faculty
+- intent: ask_faculty_emails
+  examples: |
+    - faculty info emails
+    - cics faculty emails
+    - faculty emails
+    - facluty emails
+    - teachers emails
+    - professors emails
+    - where is faculty emails
+    - list of faculty emails
+- intent: ask_current_dean
+  examples: |
+    - Dean of CICS department
+    - Current Dean
+    - who is dean
+    - dean
+    - curr dean
+    - CS Dean
+- intent: ask_neu_address
+  examples: |
+    - where is NEU
+    - NEU address
+    - how to go NEU
+    - NEU where
+    - NEU location
+    - address
+    - campus location
+    - NEU directions
+- intent: ask_tsora_directions
+  examples: |
+    - Tandang Sora
+    - NEU from Tandang Sora
+    - tsora
+    - tsora to neu
+    - T.Sora to neu campus
+    - What to ride to NEU from tandang sora
+    - tandang soraa
+    - tandang sora directions
+- intent: ask_vis_directions
+  examples: |
+    - Visayas Ave
+    - NEU from Visayas Ave
+    - vis ave
+    - visayas to neu
+    - visayas to neu campus
+    - What to ride to NEU from visayas
+    - visayas 
+    - visayas ave directions
+- intent: ask_cen_directions
+  examples: |
+    - Central Ave
+    - NEU from Central Ave
+    - cen ave
+    - central to neu
+    - central to neu campus
+    - What to ride to NEU from central
+    - central 
+    - central ave directions
+- intent: ask_human_assist
+  examples: |
+    - where to access virtual office
+    - cics virtual office
+    - i have serious concern
+    - virtual office cics
+    - I need professor's assistance
+    - is there someone who i can talk to to solve my issue
+    - contact numbers
+- intent: ask_neu_official_sites
+  examples: |
+    - what are official sites of neu
+    - official sites of neu
+    - where vle
+    - where automate
+    - neu sites
+    - official site
+    - neu website
+    - automate
+- intent: neu_socials
+  examples: |
+    - neu socials
+    - neu social media
+    - neu facebook
+    - neu twitter
+    - neu instagram
+    - neu fb
+    - neu ig
+    - socials
